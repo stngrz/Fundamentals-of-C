@@ -1,2 +1,2 @@
-# Udemy-C-Tutorials
+# Udem C++ Tutorials
 Practicing the fundamentals of C++ with Udemy tutorials.
