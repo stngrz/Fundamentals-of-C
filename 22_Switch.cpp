@@ -12,12 +12,11 @@ using namespace std;
 int main() {
 	bool state = true;
 	//switch is said to be faster than other types of selections types loops
-	while (state == true){
-	cout << "Please enter a value 1-5 or 6 to quit > " << flush;
+	while (state == true) {
+		cout << "Please enter a value 1-5 or 6 to quit > " << flush;
 
-	int value;
-	cin >> value;
-
+		int value;
+		cin >> value;
 
 		switch (value) {
 		case 1: // case cannot be a variable unless is a const
@@ -37,7 +36,7 @@ int main() {
 			break;
 		case 6:
 			cout << "Value is 6. \nQuitting. . ." << endl;
-			state=false;
+			state = false;
 			break;
 		default:
 			cout << "Unrecognized value." << endl;
